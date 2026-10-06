@@ -1,5 +1,5 @@
 function FunctionsIntro() {
-  return <div>FunctionsIntro</div>;
+  return <div>31. FunctionsIntro</div>;
 }
 
 export default FunctionsIntro;

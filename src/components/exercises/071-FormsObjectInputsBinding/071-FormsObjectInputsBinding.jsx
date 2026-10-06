@@ -1,5 +1,5 @@
 function FormsObjectInputsBinding() {
-  return <div>FormsObjectInputsBinding</div>;
+  return <div>71. FormsObjectInputsBinding</div>;
 }
 
 export default FormsObjectInputsBinding;

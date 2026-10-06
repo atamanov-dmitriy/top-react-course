@@ -1,5 +1,5 @@
 function ComponentsMultipleInstances() {
-  return <div>ComponentsMultipleInstances</div>;
+  return <div>80. ComponentsMultipleInstances</div>;
 }
 
 export default ComponentsMultipleInstances;

@@ -1,5 +1,5 @@
 function BasisIntro() {
-  return <div>BasisIntro</div>;
+  return <div>1. BasisIntro</div>;
 }
 
 export default BasisIntro;

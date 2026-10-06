@@ -1,5 +1,5 @@
 function JsxVariablesObjects() {
-  return <div>JsxVariablesObjects</div>;
+  return <div>16. JsxVariablesObjects</div>;
 }
 
 export default JsxVariablesObjects;

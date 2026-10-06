@@ -1,5 +1,5 @@
 function BasisComponentResult() {
-  return <div>BasisComponentResult</div>;
+  return <div>6. BasisComponentResult</div>;
 }
 
 export default BasisComponentResult;

@@ -1,5 +1,5 @@
 function StylingGlobalCss() {
-  return <div>StylingGlobalCss</div>;
+  return <div>98. StylingGlobalCss</div>;
 }
 
 export default StylingGlobalCss;

@@ -1,5 +1,5 @@
 function StylingStyledComponentsExtending() {
-  return <div>StylingStyledComponentsExtending</div>;
+  return <div>106. StylingStyledComponentsExtending</div>;
 }
 
 export default StylingStyledComponentsExtending;

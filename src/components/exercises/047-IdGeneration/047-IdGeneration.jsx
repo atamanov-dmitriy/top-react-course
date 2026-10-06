@@ -1,5 +1,5 @@
 function IdGeneration() {
-  return <div>IdGeneration</div>;
+  return <div>47. IdGeneration</div>;
 }
 
 export default IdGeneration;

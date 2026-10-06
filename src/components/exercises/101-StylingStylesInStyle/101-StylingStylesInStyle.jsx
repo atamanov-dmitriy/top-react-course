@@ -1,5 +1,5 @@
 function StylingStylesInStyle() {
-  return <div>StylingStylesInStyle</div>;
+  return <div>101. StylingStylesInStyle</div>;
 }
 
 export default StylingStylesInStyle;

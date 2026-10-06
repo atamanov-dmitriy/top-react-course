@@ -1,5 +1,5 @@
 function DataArrayAdding() {
-  return <div>DataArrayAdding</div>;
+  return <div>73. DataArrayAdding</div>;
 }
 
 export default DataArrayAdding;

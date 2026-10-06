@@ -1,5 +1,5 @@
 function ConditionsShow() {
-  return <div>ConditionsShow</div>;
+  return <div>26. ConditionsShow</div>;
 }
 
 export default ConditionsShow;

@@ -5,13 +5,9 @@ function LinkToLesson() {
   const to = `https://code.mu/ru/javascript/framework/react/book/prime${pathname}`;
 
   return (
-    <div>
-      <hr />
-      <Link to={to} target="_blank">
-        Ссылка на текущий урок
-      </Link>
-      <hr />
-    </div>
+    <Link to={to} target="_blank">
+      Ссылка на текущий урок
+    </Link>
   );
 }
 

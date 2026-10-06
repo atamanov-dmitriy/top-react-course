@@ -139,7 +139,7 @@ const pathToPascalCase = (path) => {
 
 const componentTemplate = (filename, prefix) => {
   return `function ${filename}() {
-  return <div>${filename}</div>;
+  return <div>${prefix}. ${filename}</div>;
 }
 
 export default ${filename};`;
@@ -155,7 +155,7 @@ async function createStructures(filesToCreate) {
 
       const itemFolder = join(baseDir, fileName);
       const filePath = join(itemFolder, `${fileName}.jsx`);
-      const content = componentTemplate(name);
+      const content = componentTemplate(name, index + 1);
 
       await mkdir(itemFolder, { recursive: true });
 
@@ -224,21 +224,17 @@ async function createLinksFile(paths, pathToPascalCase) {
   try {
     await mkdir(baseDir, { recursive: true });
 
-    const routeImport = `import { Link } from 'react-router';`;
+    const routeImport = /* HTML */ `import { Link } from 'react-router';`;
 
-    const component = `function Links() {
-  return (
-    <div>\n${paths
-      .map((path, index) => {
-        const filename = pathToPascalCase(path);
-        return `${' '.repeat(6)}<Link to={'${path}'}>${index}</Link>`;
-      })
-      .join('\n')}
-    </div>
-  );
-}
-
-export default Links;`;
+    const component = /* HTML */ `function Links() { return (
+      <div>
+        ${paths
+          .map((path, index) => {
+            return `${' '.repeat(6)}<Link to={'${path}'}>${index + 1}</Link>{' '}`;
+          })
+          .join('\n')}
+      </div>
+      ); } export default Links;`;
 
     const fullContent = `${routeImport}\n\n${component}`;
 

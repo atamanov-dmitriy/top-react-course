@@ -1,5 +1,5 @@
 function BasisComponentWay() {
-  return <div>BasisComponentWay</div>;
+  return <div>4. BasisComponentWay</div>;
 }
 
 export default BasisComponentWay;

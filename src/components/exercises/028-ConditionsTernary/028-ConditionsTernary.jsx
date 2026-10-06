@@ -1,5 +1,5 @@
 function ConditionsTernary() {
-  return <div>ConditionsTernary</div>;
+  return <div>28. ConditionsTernary</div>;
 }
 
 export default ConditionsTernary;

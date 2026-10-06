@@ -1,14 +1,11 @@
-import Links from './components/Links';
-import LinkToLesson from './components/LinkToLesson';
-import PathsList from './components/PathsList';
+import PageLayout from './components/PageLayout';
 import { HashRouter } from 'react-router';
+import './App.css';
 
 function App() {
   return (
     <HashRouter>
-      <Links />
-      <LinkToLesson />
-      <PathsList />
+      <PageLayout />
     </HashRouter>
   );
 }

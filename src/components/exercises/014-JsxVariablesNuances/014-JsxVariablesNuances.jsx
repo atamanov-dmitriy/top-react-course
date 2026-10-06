@@ -1,5 +1,5 @@
 function JsxVariablesNuances() {
-  return <div>JsxVariablesNuances</div>;
+  return <div>14. JsxVariablesNuances</div>;
 }
 
 export default JsxVariablesNuances;

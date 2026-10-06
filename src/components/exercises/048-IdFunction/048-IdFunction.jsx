@@ -1,5 +1,5 @@
 function IdFunction() {
-  return <div>IdFunction</div>;
+  return <div>48. IdFunction</div>;
 }
 
 export default IdFunction;

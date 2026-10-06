@@ -1,5 +1,5 @@
 function BasisInstall() {
-  return <div>BasisInstall</div>;
+  return <div>2. BasisInstall</div>;
 }
 
 export default BasisInstall;

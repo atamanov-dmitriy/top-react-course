@@ -1,5 +1,5 @@
 function ComponentsPassingStates() {
-  return <div>ComponentsPassingStates</div>;
+  return <div>85. ComponentsPassingStates</div>;
 }
 
 export default ComponentsPassingStates;

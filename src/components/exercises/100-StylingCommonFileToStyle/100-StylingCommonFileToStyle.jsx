@@ -1,5 +1,5 @@
 function StylingCommonFileToStyle() {
-  return <div>StylingCommonFileToStyle</div>;
+  return <div>100. StylingCommonFileToStyle</div>;
 }
 
 export default StylingCommonFileToStyle;

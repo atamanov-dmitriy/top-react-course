@@ -1,5 +1,5 @@
 function FormingTagsArray() {
-  return <div>FormingTagsArray</div>;
+  return <div>37. FormingTagsArray</div>;
 }
 
 export default FormingTagsArray;
