@@ -2,11 +2,8 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+[id='root'] {
   min-height: 100vh;
   margin: 0;
-}
-
-[id='root'] {
-  min-height: inherit;
 }

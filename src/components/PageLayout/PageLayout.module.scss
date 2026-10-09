@@ -1,0 +1,40 @@
+.page-layout {
+  flex-grow: 1;
+  display: flex;
+  align-items: stretch;
+  max-height: 100vh;
+}
+
+.page-layout__header {
+}
+
+.page-layout__main {
+  display: flex;
+  flex-direction: column;
+  max-height: inherit;
+}
+
+.page-layout__content {
+  flex-grow: 1;
+  margin-top: 12px;
+}
+
+.page-layout__left-aside,
+.page-layout__right-aside {
+  // flex-basis: 120px;
+  min-width: 0;
+  overflow-x: hidden;
+  max-height: inherit;
+}
+
+.page-layout__left-aside {
+  margin-right: 12px;
+}
+
+.page-layout__right-aside {
+  margin-left: 12px;
+}
+
+.page-layout__footer {
+  margin-top: 12px;
+}

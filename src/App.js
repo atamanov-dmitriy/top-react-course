@@ -1,4 +1,4 @@
-import PageLayout from './components/PageLayout';
+import PageLayout from './components/PageLayout/PageLayout';
 import { HashRouter } from 'react-router';
 import './App.css';
 
