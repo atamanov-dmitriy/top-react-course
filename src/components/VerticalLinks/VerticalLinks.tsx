@@ -1,6 +1,6 @@
 import { Fragment } from 'react/jsx-runtime';
 import { Link, useLocation } from 'react-router';
-import { paths } from '../../consts.ts';
+import { paths } from '../../consts';
 import styles from './VerticalLinks.module.scss';
 import clsx from 'clsx';
 
@@ -16,7 +16,7 @@ function VerticaLinks() {
   return (
     <div className={rootClass}>
       <ul className={listClass}>
-        {paths.map(({ path, title, chapter }, index) => {
+        {paths.map(({ path, title, chapter, number }, index) => {
           const hasDivider = chapter !== paths[index - 1]?.chapter;
           const isActive = pathname === path;
 
@@ -32,7 +32,7 @@ function VerticaLinks() {
                   to={path}
                   className={clsx(linkClass, isActive && activeLinkClass)}
                 >
-                  {String(index + 1).padStart(3, '0')}. {title}
+                  {number}. {title}
                 </Link>
               </li>
             </Fragment>

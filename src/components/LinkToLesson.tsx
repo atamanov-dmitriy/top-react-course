@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router';
 
 function LinkToLesson() {
   const { pathname } = useLocation();
-  const to = `https://code.mu/ru/javascript/framework/react/book/prime${pathname}`;
+  const to = `https://code.mu/ru/javascript/framework/react/book${pathname}`;
 
   return (
     <Link to={to} target="_blank">
