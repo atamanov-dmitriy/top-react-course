@@ -3,18 +3,24 @@
   display: flex;
   align-items: stretch;
   max-height: 100vh;
+  overflow: hidden;
+}
+
+.page-layout__content-wrapper {
+  flex-grow: 1;
+  max-height: inherit;
+  overflow: auto;
+}
+
+.page-layout__content {
+  display: flex;
+  flex-direction: column;
 }
 
 .page-layout__header {
 }
 
 .page-layout__main {
-  display: flex;
-  flex-direction: column;
-  max-height: inherit;
-}
-
-.page-layout__content {
   flex-grow: 1;
   margin-top: 12px;
 }
@@ -24,8 +30,8 @@
   flex-shrink: 0;
   flex-basis: 120px;
   min-width: 0;
-  overflow-x: hidden;
   max-height: inherit;
+  overflow: auto;
 }
 
 .page-layout__left-aside {

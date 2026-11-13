@@ -1,12 +1,6 @@
 .vertical-links {
   position: relative;
 
-  flex-shrink: 0;
-  flex-basis: 120px;
-  min-width: 0;
-  overflow-x: hidden;
-  max-height: inherit;
-
   &__title {
     position: sticky;
     top: 0;

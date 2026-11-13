@@ -36,15 +36,18 @@ function PageLayout() {
           <VerticalLinks />
         </aside>
       </Resizable>
-      <Container className={styles['page-layout__main']}>
-        <header className={styles['page-layout__header']}>
-          <LinkToLesson />
-        </header>
-        <main className={styles['page-layout__content']}>
-          <PathsList />
-        </main>
-        <footer className={styles['page-layout__footer']}>Footer</footer>
-      </Container>
+      <div className={styles['page-layout__content-wrapper']}>
+        <Container className={styles['page-layout__content']}>
+          <header className={styles['page-layout__header']}>
+            <LinkToLesson />
+          </header>
+          <main className={styles['page-layout__main']}>
+            <PathsList />
+            <div style={{ height: '1000px', background: 'lightyellow' }}></div>
+          </main>
+          <footer className={styles['page-layout__footer']}>Footer</footer>
+        </Container>
+      </div>
     </div>
   );
 }
