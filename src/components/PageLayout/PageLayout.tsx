@@ -55,7 +55,7 @@ function PageLayout() {
           </header>
           <main className={mainClass}>
             <PathsList />
-            <div style={{ height: '1000px', background: 'lightyellow' }}></div>
+            {/* <div style={{ height: '1000px', background: 'lightyellow' }}></div> */}
           </main>
           <footer className={footerClass}>Footer</footer>
         </Container>
